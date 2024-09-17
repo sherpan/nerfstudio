@@ -22,13 +22,7 @@ from pathlib import Path
 from typing import Any, Dict, Literal, Optional
 
 import yaml
-
-from nerfstudio.configs.base_config import (
-    InstantiateConfig,
-    LoggingConfig,
-    MachineConfig,
-    ViewerConfig,
-)
+from nerfstudio.configs.base_config import InstantiateConfig, LoggingConfig, MachineConfig, ViewerConfig
 from nerfstudio.configs.config_utils import to_immutable_dict
 from nerfstudio.engine.optimizers import OptimizerConfig
 from nerfstudio.engine.schedulers import SchedulerConfig
